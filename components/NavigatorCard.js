@@ -8,6 +8,7 @@ import {Icon} from 'react-native-elements'
 import { setDestination, setOrigin } from "../slices/navSlice"
 import { useNavigation } from '@react-navigation/native';
 import NavFavourites from './NavFavourites';
+import { FlatList } from 'react-native-gesture-handler';
 
 const NavigatorCard = () => {
 
@@ -101,6 +102,7 @@ const NavigatorCard = () => {
                      </Text>
                  </TouchableOpacity>
             </View>
+           
         </SafeAreaView>
     )
 }

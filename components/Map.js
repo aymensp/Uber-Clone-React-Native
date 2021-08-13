@@ -21,6 +21,14 @@ const Map = () => {
         });
     }, [origin, destination])
 
+//     useEffect (()=>{
+//         if (!origin || !destination) return;
+//      const getTravelTime = async ()=> {
+// const URL = ''
+//      };
+//      getTravelTime();
+//     },[origin,destination,GOOGLE_MAPS_APIKEY])
+
 
     return (
         <MapView
